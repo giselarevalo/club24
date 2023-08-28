@@ -1,3 +1,3 @@
 module.exports = (req,res)=>{
-    return res.render('login')
+    return res.send('req.body')
 }

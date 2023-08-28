@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<%- include('partials/head') %>
+<body style="background-color: black;" data-bs-theme="dark">
+  <%- include('partials/header', {title: 'Login'}) %>
+  <div class="container mt-5 col-4">
+    <form method="POST">
+      <div class="mb-3" >
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email"required name="email" >
+      </div>
+      <div class="mb-3 mt-3">
+        <label for="password" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="password" name="password" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
