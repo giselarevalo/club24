@@ -1,3 +1,10 @@
 [
-    
+   {
+      "id": "34208681-752b-48a8-b503-78005fb49bc9",
+      "name": "Gisel",
+      "color": "blue",
+      "email": "arevalogiselda@gmail.com",
+      "password": "$2a$10$8wgLdtoCj74LxEDi6Q3QyOzBZ5ikDw/LLuJ1lgzrMox3dM0DxGTqm",
+      "edad": "32"
+   }
 ]
